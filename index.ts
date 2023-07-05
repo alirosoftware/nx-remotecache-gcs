@@ -1,4 +1,4 @@
-import defaultTaskRunner from '@nrwl/workspace/tasks-runners/default';
+import defaultTaskRunner from '@nx/workspace/tasks-runners/default';
 import { Storage } from '@google-cloud/storage';
 import { join, dirname, relative } from 'path';
 import { promises } from 'fs';
